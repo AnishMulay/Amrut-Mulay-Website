@@ -52,8 +52,11 @@
     }
 
     .centerSection {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: left;
       width: 40%;
-      justify-content: left;
       margin: 50px;
     }
 
@@ -61,6 +64,11 @@
       margin: 20px;
       line-height: 2;
     }
+
+    /* .centerSectionImage {
+      margin: 20px;
+      max-width: 60%;
+    } */
   </style>
   <head>
     <meta charset="UTF-8" />
@@ -73,9 +81,9 @@
         <div class="left">Amrut Mulay</div>
         <div class="right">
           <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact</li>
+            <li><a href="/home.html">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/contact.html">Contact</a></li>
           </ul>
         </div>
       </nav>
@@ -84,6 +92,9 @@
     <main>
       <section class="first">
         <div class="centerSection">
+          <!-- <div class="centerSectionImage">
+            <img src="/assets/home.jpeg" style="width: 100%; height: auto;"></img>
+          </div> -->
           <p class="centerSectionParagraph">
             My name is Amrut Mulay and I am a personal finance enthusiast. I
             believe that personal finance is a crucial aspect of individual
