@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #efead7;
+  color: black;
+  font-family: "Libre Baskerville", serif;
+  overflow-y: scroll;
+}
